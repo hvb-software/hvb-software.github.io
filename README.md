@@ -57,4 +57,5 @@ This work is published under [MIT][mit] License.
 
 ## Mods
 
-Based on https://github.com/JinchaoLove/jekyll-theme-chirpy
+- [set About as a home page](https://github.com/JinchaoLove/jekyll-theme-chirpy)
+- [add Authors pages](https://github.com/gouravkhunger/jekyll-auto-authors)

@@ -7,11 +7,19 @@
 # -------------------------------------
 
 piotr:
+  url: /authors/piotr
   name: Piotr Prądzyński
-  twitter: prondzyn
-  url: https://github.com/prondzyn
+  bio: 'Bio of Piotr Prądzyński'
+  website: https://ProgramistaNaSwoim.pl
+  socials:
+    twitter: prondzyn
+    github: prondzyn
 
 jakub:
+  url: /authors/jakub
   name: Jakub Prądzyński
-  twitter: PradzynskiJakub
-  url: https://github.com/jakubpradzynski
+  bio: 'Bio of Jakub Prądzyński'
+  website: https://jakubpradzynski.pl
+  socials:
+    twitter: PradzynskiJakub
+    github: jakubpradzynski
