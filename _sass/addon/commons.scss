@@ -719,8 +719,10 @@ $btn-mb: 0.5rem;
 
   #avatar {
     display: block;
-    width: 7rem;
-    height: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: 10rem;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
@@ -738,9 +740,10 @@ $btn-mb: 0.5rem;
     @include mt-mb(2.5rem);
     @extend %clickable-transition;
 
-    padding-left: 2.5rem;
+    padding-left: 1.25rem;
     padding-right: 1.25rem;
     width: 100%;
+    text-align: center;
   }
 
   .site-title {
@@ -822,9 +825,11 @@ $btn-mb: 0.5rem;
   }
 
   .sidebar-bottom {
-    padding-left: 2rem;
-    padding-right: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 
     $btn-size: 1.75rem;
 
@@ -1520,7 +1525,7 @@ search {
     .profile-wrapper {
       margin-top: 3.5rem;
       margin-bottom: 2.5rem;
-      padding-left: 3.5rem;
+      /*padding-left: 3.5rem;*/
     }
 
     ul {
@@ -1530,7 +1535,7 @@ search {
     }
 
     .sidebar-bottom {
-      padding-left: 2.75rem;
+      /*padding-left: 2.75rem;*/
       margin-bottom: 1.75rem;
 
       a:not(:last-child) {
