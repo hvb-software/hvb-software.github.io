@@ -16,7 +16,11 @@
         {% for item in paths %}
           {% if forloop.first %}
             <span>
+            {% if page.layout == 'blog' %}
               <a href="{{ '/' | relative_url }}">Home</a>
+            {% else %}
+              <a href="{{ '/blog/' | relative_url }}">Blog</a>
+            {% endif %}
             </span>
 
           {% elsif forloop.last %}
