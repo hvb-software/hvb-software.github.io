@@ -7,7 +7,7 @@ tags: [first post]
 pin: false
 ---
 
-## What will go here?
+## What will you find here?
 
 This blog is intended to be a place where we share the challenges we face in doing what we like to call "work". So for the most part, the posts will not be in any particular order. You can read them in any order you like.
 
