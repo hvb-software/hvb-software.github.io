@@ -15,23 +15,23 @@ But our capabilities don't stop there - we are always eager to explore new techn
 
 ## Our services
 
-### <i class="fa-in-header fa-fw fas fa-tools"></i>We can build a web application from scratch
+### <i class="fa-in-header fa-red fa-fw fas fa-tools"></i>We can build a web application from scratch
 
 Starting from a blank canvas, our team thrives on creating web applications from scratch. With extensive experience in Java, Kotlin, and Spring (especially Spring Boot), we are adept at building robust, secure, and scalable solutions. Fueled by our passion for clean code and best practices, we ensure that every web application we develop meets the highest industry standards and delivers an exceptional user experience.
 
-### <i class="fa-in-header fa-fw fas fa-gears"></i>We can maintain your existing web application
+### <i class="fa-in-header fa-red fa-fw fas fa-gears"></i>We can maintain your existing web application
 
 We understand that an application's development is just the beginning of its life cycle. Once deployed, web applications require ongoing maintenance and optimizations to function at their best. Our team excels at taking care of existing web applications, providing regular updates, bug fixes, and performance enhancements. With our proactive approach to maintenance, we help you provide a seamless experience to your users while allowing you to focus on your core business objectives.
 
-### <i class="fa-in-header fa-fw fas fa-magnifying-glass"></i>We can improve your customers' search experience
+### <i class="fa-in-header fa-red fa-fw fas fa-magnifying-glass"></i>We can improve your customers' search experience
 
 In today's digital age, search functionalities play a crucial role in engaging and retaining customers. Our expertise in Elasticsearch enables us to optimize and fine-tune search mechanisms, resulting in accurate and efficient results. By leveraging Elasticsearch's powerful search capabilities, we can enhance your customers' search experience, ensuring that they find what they're looking for quickly and effortlessly.
 
-### <i class="fa-in-header fa-fw fas fa-mobile-alt"></i>We can create a mobile application
+### <i class="fa-in-header fa-red fa-fw fas fa-mobile-alt"></i>We can create a mobile application
 
 In a world increasingly dominated by mobile devices, having a mobile application can be a game-changer for your business. Our team is skilled in developing cross-platform mobile applications using technologies such as Flutter. By creating visually stunning and functionally robust mobile applications, we can help you reach a wider audience and provide a seamless mobile experience to your users.
 
-### <i class="fa-in-header fa-fw fas fa-chart-line"></i>We can do more
+### <i class="fa-in-header fa-red fa-fw fas fa-chart-line"></i>We can do more
 
 Beyond our core areas of expertise, we are always eager to explore new technologies and adapt to your specific needs. Whether you require assistance with AI solutions, cloud deployments, containerization using Docker, or database management, we have the knowledge and flexibility to assist you. Count on us to go above and beyond in delivering innovative solutions that elevate your business to new heights.
 
