@@ -59,3 +59,4 @@ This work is published under [MIT][mit] License.
 
 - [set About as a home page](https://github.com/JinchaoLove/jekyll-theme-chirpy)
 - [add Authors pages](https://github.com/gouravkhunger/jekyll-auto-authors)
+- [css updates based on Poison](https://poison.lukeorth.com)
