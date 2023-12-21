@@ -822,6 +822,9 @@ $btn-mb: 0.5rem;
         margin-top: 0.25rem;
       }
     }
+    li.nav-subitem {
+      padding-left: 2.75rem;
+    }
   }
 
   .sidebar-bottom {
@@ -1531,6 +1534,9 @@ search {
     ul {
       li.nav-item {
         @include pl-pr(2.75rem);
+      }
+      li.nav-subitem {
+        padding-left: 4rem;
       }
     }
 
