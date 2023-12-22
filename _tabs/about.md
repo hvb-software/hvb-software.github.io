@@ -41,4 +41,8 @@ TBD
 
 ## Hire us
 
-TBD
+We are here to help you harness the power of technology to drive your business forward. As experienced and dedicated problem-solvers, we understand the significance of tailoring our services to meet your distinct needs and objectives. We are committed to your success; our innovative solutions are designed to equip your business with the tools it needs to thrive in a digital landscape.
+
+Choosing to work with us means entering a partnership founded on mutual respect and shared objectives. From the onset, we work in tandem with you; taking the time to understand your business' unique needs, goals, and challenges. Our aim isn't just to deliver a final product, but to ensure that the journey there is as seamless and rewarding as possible. Let us transform your challenges into opportunities, and take your business to the next level.
+
+Do not hesitate to <a href="javascript:location.href = 'mailto:' + ['hi','hvb.software'].join('@')">contact us</a>. We will find the solution for you.
