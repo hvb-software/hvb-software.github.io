@@ -45,4 +45,4 @@ We are here to help you harness the power of technology to drive your business f
 
 Choosing to work with us means entering a partnership founded on mutual respect and shared objectives. From the onset, we work in tandem with you; taking the time to understand your business' unique needs, goals, and challenges. Our aim isn't just to deliver a final product, but to ensure that the journey there is as seamless and rewarding as possible. Let us transform your challenges into opportunities, and take your business to the next level.
 
-Do not hesitate to <a href="javascript:location.href = 'mailto:' + ['hi','hvb.software'].join('@')">contact us</a>. We will find the solution for you.
+Do not hesitate to contact us at <a href="javascript:location.href = 'mailto:' + ['hi','hvb.software'].join('@')">&#104;&#105;&#64;&#104;&#118;&#98;&#46;&#115;&#111;&#102;&#116;&#119;&#97;&#114;&#101;</a>. We will find the solution for you.
