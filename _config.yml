@@ -90,7 +90,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: https://github.com/hvb-software/hvb-software.github.io
+    repo: hvb-software/hvb-software.github.io
     repo_id:
     category:
     category_id:
