@@ -1,7 +1,7 @@
 ---
 title: Hello World!
 author: piotr
-date: 2023-12-19 06:41:34 +0100
+date: 2024-01-01 21:40:00 +0100
 categories: [General]
 tags: [first post]
 pin: false
