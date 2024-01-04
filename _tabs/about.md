@@ -3,6 +3,8 @@
 permalink: /
 icon: fas fa-info-circle
 order: 0
+title: HVB.software
+description: A website of a company which helps you improve your business.
 ---
 
 ## Who are we?
