@@ -37,7 +37,43 @@ Beyond our core areas of expertise, we are always eager to explore new technolog
 
 ## Our team
 
-TBD
+![Piotr](/assets/img/team/piotr.jpg){: width="200" height="200" .w-25 .left}
+
+### Piotr Prądzyński
+
+_Chief Executive Officer_
+
+<i class="fas fa-envelope"></i>&nbsp;<a class="without-underline" href="javascript:location.href = 'mailto:' + ['piotr','hvb.software'].join('@')">&#112;&#105;&#111;&#116;&#114;&#64;&#104;&#118;&#98;&#46;&#115;&#111;&#102;&#116;&#119;&#97;&#114;&#101;</a>
+
+<a class="without-underline" href="/authors/piotr"><i class="fa-tm-social fas fa-archive"></i></a>
+<a class="without-underline" href="https://ProgramistaNaSwoim.pl" target="_blank"><i class="fa-tm-social fas fa-home"></i></a>
+<a class="without-underline" href="https://www.linkedin.com/in/prondzyn/" target="_blank"><i class="fa-tm-social fab fa-linkedin"></i></a>
+<a class="without-underline" href="https://stackoverflow.com/users/4086321/piotr-pradzynski" target="_blank"><i class="fa-tm-social fab fa-stack-overflow"></i></a>
+<a class="without-underline" href="https://github.com/prondzyn" target="_blank"><i class="fa-tm-social fab fa-github"></i></a>
+<a class="without-underline" href="https://twitter.com/prondzyn" target="_blank"><i class="fa-tm-social fa-brands fa-x-twitter"></i></a>
+
+<p class="tm-description-first">He has been involved in professional programming since 2009. Worked for software houses, large corporations and startups. Both in monoliths and microservices.</p>
+
+Most experienced in backends, written in Java (or Kotlin) and Spring Boot. Enjoys Elasticsearch. Open to new challenges and technologies.
+
+<p class="tm-description-last">Privately, a fan of LEGO, Star Wars, The Witcher fantasy world, and Manchester United.</p>
+
+![Jakub](/assets/img/team/jakub.jpg){: width="200" height="200" .w-25 .left}
+
+### Jakub Prądzyński
+
+_Chief Technology Officer_
+
+<i class="fas fa-envelope"></i>&nbsp;<a class="without-underline" href="javascript:location.href = 'mailto:' + ['jakub','hvb.software'].join('@')">&#106;&#97;&#107;&#117;&#98;&#64;&#104;&#118;&#98;&#46;&#115;&#111;&#102;&#116;&#119;&#97;&#114;&#101;</a>
+
+<a class="without-underline" href="/authors/jakub"><i class="fa-tm-social fas fa-archive"></i></a>
+<a class="without-underline" href="https://jakubpradzynski.pl" target="_blank"><i class="fa-tm-social fas fa-home"></i></a>
+<a class="without-underline" href="https://www.linkedin.com/in/jakubpradzynski/" target="_blank"><i class="fa-tm-social fab fa-linkedin"></i></a>
+<a class="without-underline" href="https://stackoverflow.com/users/10840273/jakub-pr%c4%85dzy%c5%84ski" target="_blank"><i class="fa-tm-social fab fa-stack-overflow"></i></a>
+<a class="without-underline" href="https://github.com/jakubpradzynski" target="_blank"><i class="fa-tm-social fab fa-github"></i></a>
+<a class="without-underline" href="https://twitter.com/PradzynskiJakub" target="_blank"><i class="fa-tm-social fa-brands fa-x-twitter"></i></a>
+
+<p class="tm-description-first tm-description-last">TBD</p>
 
 ## Hire us
 
@@ -45,4 +81,4 @@ We are here to help you harness the power of technology to drive your business f
 
 Choosing to work with us means entering a partnership founded on mutual respect and shared objectives. From the onset, we work in tandem with you; taking the time to understand your business' unique needs, goals, and challenges. Our aim isn't just to deliver a final product, but to ensure that the journey there is as seamless and rewarding as possible. Let us transform your challenges into opportunities, and take your business to the next level.
 
-Do not hesitate to contact us at <a href="javascript:location.href = 'mailto:' + ['hi','hvb.software'].join('@')">&#104;&#105;&#64;&#104;&#118;&#98;&#46;&#115;&#111;&#102;&#116;&#119;&#97;&#114;&#101;</a>. We will find the solution for you.
+Do not hesitate to contact us at <a class="without-underline" href="javascript:location.href = 'mailto:' + ['hi','hvb.software'].join('@')">&#104;&#105;&#64;&#104;&#118;&#98;&#46;&#115;&#111;&#102;&#116;&#119;&#97;&#114;&#101;</a>. We will find the solution for you.

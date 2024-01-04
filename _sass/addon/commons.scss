@@ -1556,11 +1556,25 @@ search {
 } /* min-width: 1650px */
 
 
-/* added by us */
+/**** added by us ****/
 .fa-in-header {
   text-align: left;
   width: 1.75em;
 }
 .fa-red {
   color: #BB3131;
+}
+a.without-underline {
+  border-bottom: 0 !important;
+}
+/* team members */
+.tm-description-first {
+  clear: both;
+}
+.tm-description-last {
+  margin-bottom: 1.25rem;
+}
+.fa-tm-social {
+  font-size: 1.25rem;
+  margin-right: 0.4rem;
 }
