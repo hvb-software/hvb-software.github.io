@@ -16,6 +16,7 @@ tabs:
   tags: Tags
   archives: Archives
   about: About <i class="fas fa-bolt fa-red"></i> HVB.software
+  hvb.software: About <i class="fas fa-bolt fa-red"></i> HVB.software
 
 # the text displayed in the search bar & search results
 search:
