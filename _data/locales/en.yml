@@ -19,7 +19,7 @@ tabs:
   hvb.software: About <i class="fas fa-bolt fa-red"></i> HVB.software
 
 overrides:
-  breadcrumbs:
+  topbar:
     Posts by piotr: Piotr's Archives
     Posts by jakub: Jakub's Archives
 

@@ -27,7 +27,7 @@
             {% if page.collection == 'tabs' %}
               <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
             {% elsif page.layout == 'author' %}
-              <span>{{ site.data.locales[include.lang].overrides.breadcrumbs[page.title] | default: page.title }}</span>
+              <span>{{ site.data.locales[include.lang].overrides.topbar[page.title] | default: page.title }}</span>
             {% else %}
               <span>{{ page.title }}</span>
             {% endif %}
@@ -54,6 +54,8 @@
       {% elsif page.collection == 'tabs' or page.layout == 'page' %}
         {%- capture tab_key -%}{{ page.url | split: '/' }}{%- endcapture -%}
         {{- site.data.locales[include.lang].tabs[tab_key] | default: page.title -}}
+      {% elsif page.layout == 'author' %}
+        {{ site.data.locales[include.lang].overrides.topbar[page.title] | default: "Author's Archives" }}
       {% else %}
         {{- site.data.locales[include.lang].layout[page.layout] | default: page.layout | capitalize -}}
       {% endif %}
