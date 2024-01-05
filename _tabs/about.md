@@ -47,7 +47,7 @@ _Chief Executive Officer_
 
 <i class="fas fa-envelope"></i>&nbsp;<a class="without-underline" href="javascript:location.href = 'mailto:' + ['piotr','hvb.software'].join('@')">&#112;&#105;&#111;&#116;&#114;&#64;&#104;&#118;&#98;&#46;&#115;&#111;&#102;&#116;&#119;&#97;&#114;&#101;</a>
 
-<a class="without-underline" href="/authors/piotr"><i class="fa-tm-social fas fa-archive"></i></a>
+<a class="without-underline" href="/archives/piotr/"><i class="fa-tm-social fas fa-archive"></i></a>
 <a class="without-underline" href="https://ProgramistaNaSwoim.pl" target="_blank"><i class="fa-tm-social fas fa-home"></i></a>
 <a class="without-underline" href="https://www.linkedin.com/in/prondzyn/" target="_blank"><i class="fa-tm-social fab fa-linkedin"></i></a>
 <a class="without-underline" href="https://stackoverflow.com/users/4086321/piotr-pradzynski" target="_blank"><i class="fa-tm-social fab fa-stack-overflow"></i></a>
@@ -68,7 +68,7 @@ _Chief Technology Officer_
 
 <i class="fas fa-envelope"></i>&nbsp;<a class="without-underline" href="javascript:location.href = 'mailto:' + ['jakub','hvb.software'].join('@')">&#106;&#97;&#107;&#117;&#98;&#64;&#104;&#118;&#98;&#46;&#115;&#111;&#102;&#116;&#119;&#97;&#114;&#101;</a>
 
-<a class="without-underline" href="/authors/jakub"><i class="fa-tm-social fas fa-archive"></i></a>
+<a class="without-underline" href="/archives/jakub/"><i class="fa-tm-social fas fa-archive"></i></a>
 <a class="without-underline" href="https://jakubpradzynski.pl" target="_blank"><i class="fa-tm-social fas fa-home"></i></a>
 <a class="without-underline" href="https://www.linkedin.com/in/jakubpradzynski/" target="_blank"><i class="fa-tm-social fab fa-linkedin"></i></a>
 <a class="without-underline" href="https://stackoverflow.com/users/10840273/jakub-pr%c4%85dzy%c5%84ski" target="_blank"><i class="fa-tm-social fab fa-stack-overflow"></i></a>

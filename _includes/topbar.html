@@ -26,6 +26,8 @@
           {% elsif forloop.last %}
             {% if page.collection == 'tabs' %}
               <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
+            {% elsif page.layout == 'author' %}
+              <span>{{ site.data.locales[include.lang].overrides.breadcrumbs[page.title] | default: page.title }}</span>
             {% else %}
               <span>{{ page.title }}</span>
             {% endif %}

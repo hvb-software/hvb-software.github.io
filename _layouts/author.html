@@ -1,62 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-<!-- This has the username of author. The one that you set with "author: name" in front-matter-->
+{% include lang.html %}
+
+{% assign df_strftime_m = site.data.locales[lang].df.archives.strftime | default: '/ %m' %}
+{% assign df_dayjs_m = site.data.locales[lang].df.archives.dayjs | default: '/ MM' %}
+
 {% assign author_username = page.pagination.author %}
-
-<!-- Use page.pagination.author_data only if you have data file setup correctly -->
 {% assign author = page.pagination.author_data %}
-<!--
-  Now you can use the author variable anyhow.
-  It has all the data as defined inside _data/authors.yml for the current username.
--->
 
-  <head>
-    <!-- See how we can use values inside the author variable. -->
-    <meta name="description" content={{ author.bio }}>
-    <!-- other stuff -->
-  </head>
+{% assign posts = site.posts | where_exp:"item", "item.author == author_username" %}
 
-  <body>
-    <h1>{{ author.name }}</h1>
-    <p>{{ author.bio }}</p>
-    <a href="{{ author.website }}">Portfolio</a>
-    {% assign socials = author.socials %}
-    <a href="https://twitter.com/{{ socials.twitter }}">Twitter</a>
-    <a href="https://github.com/{{ socials.github }}">GitHub</a>
+<article class="px-1">
+  {% assign tab_key = page.title | downcase %}
+  {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
+  <h1 class="dynamic-title">
+    Posts by {{ author.name }}
+  </h1>
+  <div class="content">
+    <div id="archives" class="pl-xl-3">
+      {% for post in posts %}
+        {% assign cur_year = post.date | date: '%Y' %}
 
-    <!--
-      The main logic for rendering an author's posts resides here.
-      The plugin exposes a paginator object that you can use to loop through the post.
-      It handles all the pagination logic for you.
-    -->
-    <ul>
-    {% for post in paginator.posts %}
-      <li>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-    </ul>
+        {% if cur_year != last_year %}
+          {% unless forloop.first %}</ul>{% endunless %}
 
-    <!--
-      If there are more pages rendered for current author's posts, show
-      "Previous" / "Next" links for navigation
-    -->
-    {% if paginator.total_pages > 1 %}
-    <ul>
-      {% if paginator.previous_page %}
-      <li>
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
-      </li>
-      {% endif %}
+          <time class="year lead d-block">{{ cur_year }}</time>
+          {{ '<ul class="list-unstyled">' }}
 
-      {% if paginator.next_page %}
-      <li>
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
-      </li>
-      {% endif %}
-    </ul>
-    {% endif %}
-  </body>
+          {% assign last_year = cur_year %}
+        {% endif %}
 
-</html>
+        <li>
+          {% assign ts = post.date | date: '%s' %}
+          <span class="date day" data-ts="{{ ts }}" data-df="DD">{{ post.date | date: '%d' }}</span>
+          <span class="date month small text-muted ms-1" data-ts="{{ ts }}" data-df="{{ df_dayjs_m }}">
+            {{ post.date | date: df_strftime_m }}
+          </span>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+
+        {% if forloop.last %}</ul>{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</article>

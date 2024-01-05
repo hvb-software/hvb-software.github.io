@@ -7,7 +7,7 @@
 # -------------------------------------
 
 piotr:
-  url: /authors/piotr
+  url: /archives/piotr/
   name: Piotr Prądzyński
   bio: 'Bio of Piotr Prądzyński'
   website: https://ProgramistaNaSwoim.pl
@@ -16,7 +16,7 @@ piotr:
     github: prondzyn
 
 jakub:
-  url: /authors/jakub
+  url: /archives/jakub/
   name: Jakub Prądzyński
   bio: 'Bio of Jakub Prądzyński'
   website: https://jakubpradzynski.pl

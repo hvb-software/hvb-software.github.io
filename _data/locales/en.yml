@@ -18,6 +18,11 @@ tabs:
   about: About <i class="fas fa-bolt fa-red"></i> HVB.software
   hvb.software: About <i class="fas fa-bolt fa-red"></i> HVB.software
 
+overrides:
+  breadcrumbs:
+    Posts by piotr: Piotr's Archives
+    Posts by jakub: Jakub's Archives
+
 # the text displayed in the search bar & search results
 search:
   hint: search
