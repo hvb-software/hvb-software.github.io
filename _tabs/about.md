@@ -75,11 +75,11 @@ _Chief Technology Officer_
 <a class="without-underline" href="https://github.com/jakubpradzynski" target="_blank"><i class="fa-tm-social fab fa-github"></i></a>
 <a class="without-underline" href="https://twitter.com/PradzynskiJakub" target="_blank"><i class="fa-tm-social fa-brands fa-x-twitter"></i></a>
 
-<p class="tm-description-first">For about 5 years works for the biggest e-commerce platform in Poland - Allegro. Co-organizer of Toruń JUG. Co-organizer & co-teacher of a class at Nicolaus Copernicus University.</p>
+<p class="tm-description-first">From 2019 works for the largest e-commerce platform in Poland - Allegro. Co-organizer of Toruń JUG. Co-organizer & co-teacher of a course at the Nicolaus Copernicus University.</p>
 
-Mostly focused on backends - microservices written in Kotlin (or Java) and Spring Boot. Works also with Big Data (like Apache Spark) and GCP. More interested in MongoDB.
+Mostly focused on backends - microservices written in Kotlin (or Java) and Spring Boot. Also works with big data (like Apache Spark) and GCP. More interested in MongoDB.
 
-<p class="tm-description-last">Privately likes reading books, doing different kind of sports and studying finance world. Fan of golf and Manchester United.</p>
+<p class="tm-description-last">In his free time, he likes to read books, do various sports and study the financial world. Golf and Manchester United fan.</p>
 
 ## Hire us
 
