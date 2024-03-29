@@ -254,4 +254,4 @@ So... this is the Way.
 
 You can find the entire sample code on [our GitHub](https://github.com/hvb-software/valuable-endpoints-tests/tree/main).
 
-Code with `@JsonNaming(SnakeCaseStrategy.class)` is under [`snake_case` branch](https://github.com/hvb-software/valuable-endpoints-tests/tree/snake_case).
+Code using `@JsonNaming(SnakeCaseStrategy.class)` is on the [`snake_case` branch](https://github.com/hvb-software/valuable-endpoints-tests/tree/snake_case).
