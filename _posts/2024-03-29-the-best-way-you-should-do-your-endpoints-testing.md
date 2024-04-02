@@ -17,6 +17,8 @@ What happened there?
 
 Let's take a look how endpoints tests were written.
 
+## Sample controller
+
 First, let's create a dummy controller which will return information about two users:
 
 ```java
@@ -47,8 +49,9 @@ public record User (
 ```
 {: file='User.java'}
 
-Now we can take a look how the tests were written in the mentioned project:
+## Testing with mapping into POJOs
 
+Now we can take a look how the tests were written in the mentioned project:
 
 ```java
 @SpringBootTest(webEnvironment = RANDOM_PORT)
@@ -88,6 +91,8 @@ class UserControllerPojoTest {
 The above test is perfectly valid and will be green after running:
 
 ![UserControllerPojoTest#shouldListAllUsers test passed](/assets/img/posts/001-endpoints-testing-1.png){: .normal width="400"}
+
+## Comparing entire JSONs
 
 But it also can be written in a bit different manner:
 
@@ -205,6 +210,8 @@ The naming of the fields has actually been changed from camelCase to snake_case.
 So the `UserControllerJsonTest#shouldListAllUsers` test failed correctly.
 Why the `UserControllerPojoTest#shouldListAllUsers` passed?
 
+## What happened?
+
 The secret lies in this piece of code (or what is actually used underneath it):
 
 ```java
@@ -256,7 +263,7 @@ You can find the entire sample code on [our GitHub](https://github.com/hvb-softw
 
 Code using `@JsonNaming(SnakeCaseStrategy.class)` is on the [`snake_case` branch](https://github.com/hvb-software/valuable-endpoints-tests/tree/snake_case).
 
-## Appendix
+## Appendix: _jsonPath_
 
 During the post review, [Jakub](/#jakub-prądzyński) rightly pointed out to me that I did not mention about an alternative for comparing entire JSONs which is the [`jsonPath` matcher](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/web/servlet/result/MockMvcResultMatchers.html#jsonPath(java.lang.String,java.lang.Object...)).
 
