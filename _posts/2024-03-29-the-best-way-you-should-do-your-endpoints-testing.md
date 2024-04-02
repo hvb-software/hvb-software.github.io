@@ -103,8 +103,8 @@ class UserControllerJsonTest {
 
         // when
         mockMvc.perform(
-                        get("/users")
-                                .contentType(APPLICATION_JSON)
+                    get("/users")
+                        .contentType(APPLICATION_JSON)
                 )
 
                 // then
@@ -255,3 +255,37 @@ So... this is the Way.
 You can find the entire sample code on [our GitHub](https://github.com/hvb-software/valuable-endpoints-tests/tree/main).
 
 Code using `@JsonNaming(SnakeCaseStrategy.class)` is on the [`snake_case` branch](https://github.com/hvb-software/valuable-endpoints-tests/tree/snake_case).
+
+## Appendix
+
+During the post review, [Jakub](/#jakub-prądzyński) rightly pointed out to me that I did not mention about an alternative for comparing entire JSONs which is the [`jsonPath` matcher](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/web/servlet/result/MockMvcResultMatchers.html#jsonPath(java.lang.String,java.lang.Object...)).
+
+With `jsonPath`, the above test might look like this:
+
+```java
+    @Test
+    void shouldListAllUsersWithJsonPaths() throws Exception {
+
+        // when
+        mockMvc.perform(
+                    get("/users")
+                        .contentType(APPLICATION_JSON)
+                )
+
+                // then
+                .andExpect(status().isOk())
+                .andExpect(content().contentType(APPLICATION_JSON))
+                .andExpect(jsonPath("$[0].id", is(1)))
+                .andExpect(jsonPath("$[0].firstName", is( "Walter")))
+                .andExpect(jsonPath("$[0].lastName", is("White")))
+                .andExpect(jsonPath("$[1].id", is(2)))
+                .andExpect(jsonPath("$[1].firstName", is("Jesse")))
+                .andExpect(jsonPath("$[1].lastName", is("Pinkman")));
+    }
+```
+
+Overall, I'm not a big fan of this approach. It looks a bit ugly and does not protect us from omitting certain fields, which is enforced when comparing entire JSONs in strict mode.
+
+But that doesn't mean I don't use the `jsonPath` matcher at all. It's useful, especially when I have some untested legacy endpoints that return huge JSONs with a lot of hard to mock generators, and I'm taking the first steps to introduce tests.
+
+In this case, comparing whole JSONs is hard to do at first. But it is nice to introduce asserts for at least the most important fields.
