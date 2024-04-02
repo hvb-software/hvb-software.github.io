@@ -283,6 +283,7 @@ With `jsonPath`, the above test might look like this:
                 .andExpect(jsonPath("$[1].lastName", is("Pinkman")));
     }
 ```
+{: file='UserControllerJsonPathsTest.java'}
 
 Overall, I'm not a big fan of this approach. It looks a bit ugly and does not protect us from omitting certain fields, which is enforced when comparing entire JSONs in strict mode.
 
