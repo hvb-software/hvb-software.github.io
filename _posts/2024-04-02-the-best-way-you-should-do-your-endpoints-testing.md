@@ -1,7 +1,7 @@
 ---
 title: The best way you should do your endpoints testing 
 author: piotr
-date: 2024-03-29 07:29:11 +0100
+date: 2024-04-02 21:40:00 +0200
 categories: [Testing]
 tags: [spring boot, spring framework, rest, tests]
 pin: false
