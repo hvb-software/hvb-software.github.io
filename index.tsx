@@ -27,27 +27,27 @@ const translations = {
   pl: {
     seo: {
       home: {
-        title: "HVB.software - Tworzymy Inteligentne Oprogramowanie AI-First",
+        title: "HVB.software - tworzymy inteligentne oprogramowanie w duchu AI-First",
         description: "HVB.software: specjalizujemy się w tworzeniu oprogramowania w podejściu AI-first. Projektujemy innowacyjne aplikacje i automatyzujemy procesy biznesowe przy użyciu narzędzi no-code jak n8n."
       },
       whyAI: {
-        title: "Podejście AI-first - Innowacja i Przewaga | HVB.software",
+        title: "Podejście AI-first - innowacja i przewaga | HVB.software",
         description: "Poznaj korzyści płynące z podejścia AI-first. Zyskaj innowacyjność, efektywność i przewagę konkurencyjną dzięki dedykowanym rozwiązaniom AI od HVB.software."
       },
       services: {
-        title: "Usługi AI - Rozwój, Integracje, Automatyzacje | HVB.software",
+        title: "Usługi AI - rozwój, integracje, automatyzacje | HVB.software",
         description: "Oferujemy kompleksowe usługi AI: tworzenie oprogramowania AI-first, integracje z istniejącymi systemami, szkolenia dla zespołów oraz automatyzację procesów z n8n."
       },
       portfolio: {
-        title: "Nasze Projekty i Realizacje AI | HVB.software",
+        title: "Nasze projekty i realizacje AI | HVB.software",
         description: "Przeglądaj nasze portfolio zrealizowanych projektów AI, w tym inteligentnego asystenta JiroAI.pl i innowacyjną platformę HomeDecoratorAI.com."
       },
       aboutUs: {
-        title: "O Nas - Poznaj Zespół HVB.software",
+        title: "O nas - poznaj zespół HVB.software",
         description: "Poznaj założycieli HVB.software, Jakuba i Piotra Prądzyńskich. Dowiedz się więcej o naszym doświadczeniu w technologiach AI, Java, Kotlin, Spring i nie tylko."
       },
       contact: {
-        title: "Skontaktuj się z Nami | HVB.software",
+        title: "Skontaktuj się z nami | HVB.software",
         description: "Masz pomysł na projekt AI? Skontaktuj się z nami, aby omówić szczegóły. Wypełnij formularz kontaktowy, a nasz zespół odezwie się do Ciebie."
       }
     },
@@ -135,27 +135,27 @@ const translations = {
   en: {
     seo: {
       home: {
-        title: "HVB.software - Building Intelligent AI-First Software",
+        title: "HVB.software - building intelligent AI-first software",
         description: "HVB.software: We specialize in AI-first software development. We design innovative applications and automate business processes using no-code tools like n8n."
       },
       whyAI: {
-        title: "The AI-First Approach - Innovation & Advantage | HVB.software",
+        title: "The AI-first approach - innovation & advantage | HVB.software",
         description: "Discover the benefits of an AI-first approach. Gain innovation, efficiency, and a competitive edge with custom AI solutions from HVB.software."
       },
       services: {
-        title: "AI Services - Development, Integration, Automation | HVB.software",
+        title: "AI services - development, integration, automation | HVB.software",
         description: "We offer comprehensive AI services: AI-first software development, integration with existing systems, team training, and process automation with n8n."
       },
       portfolio: {
-        title: "Our AI Projects & Implementations | HVB.software",
+        title: "Our AI projects & implementations | HVB.software",
         description: "Explore our portfolio of completed AI projects, including the JiroAI.pl intelligent assistant and the innovative HomeDecoratorAI.com platform."
       },
        aboutUs: {
-        title: "About Us - Meet the HVB.software Team",
+        title: "About us - Meet the HVB.software team",
         description: "Meet the founders of HVB.software, Jakub and Piotr Prądzyński. Learn more about our experience in AI, Java, Kotlin, Spring, and more."
       },
       contact: {
-        title: "Contact Us | HVB.software",
+        title: "Contact us | HVB.software",
         description: "Have an idea for an AI project? Contact us to discuss the details. Fill out the contact form, and our team will get in touch with you."
       }
     },
