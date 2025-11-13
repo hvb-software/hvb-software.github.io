@@ -1,56 +1,26 @@
-# HVB.software's website with blog
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-The website: [HVB.software](https://hvb.software)
+# Run and deploy your AI Studio app
 
-## Source
-The project was generated using [chirpy-starter](https://github.com/cotes2020/chirpy-starter).
+This contains everything you need to run your app locally.
 
-[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) is a theme for [Jekyll](https://jekyllrb.com/) projects.
+View your app in AI Studio: https://ai.studio/apps/drive/14OU1BwugkhLv5Q3tc4Po5gjh_kKHDmG5
 
-## How to develop locally?
+## Run Locally
 
-Install dependencies using:
-```shell
-bundle
-```
+**Prerequisites:**  Node.js
 
-Then run the following command:
-```shell
-bundle exec jekyll s --livereload --drafts
-```
 
-or to run in Docker:
-```shell
-docker run -it --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll jekyll serve
-```
+1. Install dependencies:
+   `npm install`
+2. Run the app:
+   `npm run dev`
 
-## How to add a new post?
+## Deploy to GitHub Pages
 
-Create a new file in the `_posts` folder with pattern: `YEAR-MONTH-DAY-title-of-post.md`
-
-At the beginning add:
-```markdown
----
-title: Example title (no markdown format)
-author: the_author
-date: 2024-01-08 21:40:00 +0100
-categories: [Spring Boot]
-tags: [spring data, tests]
-pin: false
-toc: true
----
-```
-
-After `---` you can add whatever you want in markdown format.
-
-## Documentations
-
-- [Jekyll](https://jekyllrb.com/docs/)
-- [Chirpy](https://chirpy.cotes.page/)
-- [Chirpy-starter](https://github.com/cotes2020/chirpy-starter)
-
-### Modifications
-
-- [set "about" as a start page](https://github.com/JinchaoLove/jekyll-theme-chirpy)
-- [author pages](https://github.com/gouravkhunger/jekyll-auto-authors)
-- [CSS updates based on Poison](https://poison.lukeorth.com)
+1. Build the app:
+   `npm run predeploy`
+2. Deploy to GitHub Pages:
+   `npm run deploy`
