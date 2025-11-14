@@ -107,7 +107,7 @@ const translations = {
           title: "Founder",
           email: "piotr@hvb.software",
           imageId: "piotr",
-          description_part1: "Z zawodowym programowaniem związany od 2009 roku. Pracował dla software house'ów, dużych korporacji i startupów. Zarówno w monolitach, jak i mikroserwisach.\n\nObecnie pracuje nad rozwiązaniami głosowymi AI. Doświadczony w backendach, pisanych w Javie (lub Kotlinie) i Spring Boot. Lubi Elasticsearch. Otwarty na nowe wyzwania i technologie.\n\nZałożyciel ",
+          description_part1: "Z zawodowym programowaniem jestem związany od 2009 roku. Pracowałem dla software house'ów, dużych korporacji i startupów. Zarówno w monolitach, jak i mikroserwisach.\n\nObecnie pracuje nad rozwiązaniami głosowymi AI. Doświadczony w backendach, pisanych w Javie (lub Kotlinie) i Spring Boot. Lubię Elasticsearch. Jestem otwarty na nowe wyzwania i technologie.\n\nZałożyciel ",
           description_link_text: "ProgramistaNaSwoim.pl",
           description_link_url: "https://programistanaswoim.pl",
           description_part2: ".\n\nPrywatnie fan LEGO, Gwiezdnych Wojen, świata fantasy Wiedźmina i Manchesteru United.",
