@@ -12,7 +12,7 @@ const siteLinks = {
 };
 
 const siteImages = {
-  logo: "images/hvb_software_logo.png",
+  logo: "images/hvb_software_logo.jpeg",
   portfolio: {
     jiroai: "images/jiroai_pl.png",
     homedecorator: "images/homedecoratorai_com.png",
@@ -329,7 +329,7 @@ const App = () => {
         const seoContent = translations[lang].seo?.[activeSection];
         const baseUrl = window.location.origin;
         const pageUrl = `${baseUrl}${window.location.pathname}`;
-        const socialImageUrl = `${baseUrl}/images/hvb_software_logo.png`; 
+        const socialImageUrl = `${baseUrl}/images/hvb_software_logo.jpeg`; 
 
         const setMeta = (id, attribute, value) => {
             const el = document.getElementById(id);
