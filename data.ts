@@ -28,8 +28,8 @@ export const translations = {
                 title: "HVB.software - tworzymy inteligentne oprogramowanie w duchu AI-First",
                 description: "HVB.software: specjalizujemy się w tworzeniu oprogramowania w podejściu AI-first. Projektujemy innowacyjne aplikacje i automatyzujemy procesy biznesowe przy użyciu narzędzi no-code jak n8n."
             },
-            whyAI: {
-                title: "Podejście AI-first - innowacja i przewaga | HVB.software",
+            aiFirst: {
+                title: "AI-first - innowacja i przewaga | HVB.software",
                 description: "Poznaj korzyści płynące z podejścia AI-first. Zyskaj innowacyjność, efektywność i przewagę konkurencyjną dzięki dedykowanym rozwiązaniom AI od HVB.software."
             },
             services: {
@@ -50,7 +50,7 @@ export const translations = {
             }
         },
         nav: {
-            about: "Dlaczego AI-first?",
+            about: "AI-first",
             services: "Usługi",
             portfolio: "Portfolio",
             aboutUs: "O nas",
@@ -62,13 +62,13 @@ export const translations = {
             description: "Projektujemy i wdrażamy innowacyjne rozwiązania oparte na sztucznej inteligencji. Automatyzujemy procesy biznesowe, wykorzystując elastyczne narzędzia no-code, takie jak n8n, aby dostarczać realne korzyści dla Twojej firmy.",
             contact_button: "Bezpłatna konsultacja",
         },
-        whyAI: {
-            title: "Dlaczego podejście AI-first to przyszłość?",
+        aiFirst: {
+            title: "AI-first",
             description: "Wdrażanie sztucznej inteligencji na etapie projektowania pozwala budować inteligentne i wydajne rozwiązania. Zyskaj przewagę konkurencyjną dzięki produktom, które uczą się i adaptują do potrzeb rynku.",
             points: [
-                { title: "Nieograniczone innowacje", text: "Projektuj produkty, które dynamicznie uczą się i adaptują do zmieniających się potrzeb użytkowników, otwierając nowe możliwości biznesowe.", icon: "lightbulb" },
-                { title: "Maksymalna efektywność", text: "Automatyzuj powtarzalne zadania i optymalizuj kluczowe procesy, aby maksymalnie oszczędzać czas i zasoby Twojej firmy.", icon: "speed" },
-                { title: "Zdecydowana przewaga rynkowa", text: "Wyróżnij się na tle konkurencji, dostarczając unikalną wartość i funkcjonalności, niedostępne w tradycyjnych systemach.", icon: "workspace_premium" },
+                { title: "Szybkość dostarczania", text: "AI pozwala na dużo szybsze dostarczanie oprogramowania dzięki wykorzystaniu serii wyspecjalizowanych agentów i automatyzacji procesu developmentu.", icon: "rocket_launch" },
+                { title: "Optymalizacja kosztów", text: "Wykorzystanie AI do developmentu znacząco obniża koszty wytwarzania i utrzymania oprogramowania, pozwalając na lepszą alokację budżetu.", icon: "savings" },
+                { title: "Innowacyjne rozwiązania", text: "AI dostarcza nowych możliwości dla spełniania potrzeb klientów Twojej firmy, tworząc rozwiązania niemożliwe do osiągnięcia tradycyjnymi metodami.", icon: "lightbulb" },
             ],
         },
         services: {
@@ -156,9 +156,9 @@ export const translations = {
                 title: "HVB.software - building intelligent AI-first software",
                 description: "HVB.software: We specialize in AI-first software development. We design innovative applications and automate business processes using no-code tools like n8n."
             },
-            whyAI: {
-                title: "The AI-first approach - innovation & advantage | HVB.software",
-                description: "Discover the benefits of an AI-first approach. Gain innovation, efficiency, and a competitive edge with custom AI solutions from HVB.software."
+            aiFirst: {
+                title: "AI-first - innovation & advantage | HVB.software",
+                description: "Discover the benefits of AI-first. Gain innovation, efficiency, and a competitive edge with custom AI solutions from HVB.software."
             },
             services: {
                 title: "AI services - development, integration, automation | HVB.software",
@@ -178,7 +178,7 @@ export const translations = {
             }
         },
         nav: {
-            about: "Why AI-first?",
+            about: "AI-first",
             services: "Services",
             portfolio: "Portfolio",
             aboutUs: "About us",
@@ -190,13 +190,13 @@ export const translations = {
             description: "We design and implement innovative solutions powered by Artificial Intelligence. We automate business processes using flexible no-code tools like n8n to deliver tangible benefits for your company.",
             contact_button: "Get a Free Consultation",
         },
-        whyAI: {
-            title: "Why is AI-first the future?",
+        aiFirst: {
+            title: "Why AI-first is the future?",
             description: "Integrating AI from the design phase allows you to build smarter, more efficient solutions. Gain a competitive edge with products that learn and adapt to market needs.",
             points: [
-                { title: "Limitless innovation", text: "Design products that dynamically learn and adapt to changing user needs, unlocking new business opportunities.", icon: "lightbulb" },
-                { title: "Maximum efficiency", text: "Automate repetitive tasks and optimize key processes to save your company's valuable time and resources.", icon: "speed" },
-                { title: "Decisive market advantage", text: "Stand out from the competition by delivering unique value and features unavailable in traditional systems.", icon: "workspace_premium" },
+                { title: "Delivery speed", text: "AI allows for much faster software delivery through the use of specialized agents and development process automation.", icon: "rocket_launch" },
+                { title: "Cost optimization", text: "Using AI for development significantly lowers software production and maintenance costs, allowing for better budget allocation.", icon: "savings" },
+                { title: "Innovation", text: "AI provides new possibilities for meeting your company's customer needs, creating solutions impossible to achieve with traditional methods.", icon: "lightbulb" },
             ],
         },
         services: {

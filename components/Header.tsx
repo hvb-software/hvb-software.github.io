@@ -9,7 +9,7 @@ interface HeaderProps {
     setIsMenuOpen: (isOpen: boolean) => void;
     scrollToRef: (ref: MutableRefObject<HTMLElement | null>) => void;
     refs: {
-        whyAIRef: MutableRefObject<HTMLElement | null>;
+        aiFirstRef: MutableRefObject<HTMLElement | null>;
         servicesRef: MutableRefObject<HTMLElement | null>;
         portfolioRef: MutableRefObject<HTMLElement | null>;
         aboutUsRef: MutableRefObject<HTMLElement | null>;
@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ content, lang, setLang, isMenuOpen, set
                 <img src={siteImages.logo} alt="HVB.software Logo" className="logo" />
             </a>
             <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
-                <a onClick={() => scrollToRef(refs.whyAIRef)}>{content.nav.about}</a>
+                <a onClick={() => scrollToRef(refs.aiFirstRef)}>{content.nav.about}</a>
                 <a onClick={() => scrollToRef(refs.servicesRef)}>{content.nav.services}</a>
                 <a onClick={() => scrollToRef(refs.portfolioRef)}>{content.nav.portfolio}</a>
                 <a onClick={() => scrollToRef(refs.aboutUsRef)}>{content.nav.aboutUs}</a>

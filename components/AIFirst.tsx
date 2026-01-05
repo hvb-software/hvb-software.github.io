@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
 
-interface WhyAIProps {
+interface AIFirstProps {
     content: any;
 }
 
-const WhyAI = forwardRef<HTMLElement, WhyAIProps>(({ content }, ref) => {
+const AIFirst = forwardRef<HTMLElement, AIFirstProps>(({ content }, ref) => {
     return (
         <section ref={ref} className="content-section fade-in">
             <h2>{content.title}</h2>
@@ -24,4 +24,4 @@ const WhyAI = forwardRef<HTMLElement, WhyAIProps>(({ content }, ref) => {
     );
 });
 
-export default WhyAI;
+export default AIFirst;

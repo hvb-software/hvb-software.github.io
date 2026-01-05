@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, MutableRefObject } from 'react';
 import { createRoot } from 'react-dom/client';
 import { translations } from './data';
 import Hero from './components/Hero';
-import WhyAI from './components/WhyAI';
+import AIFirst from './components/AIFirst';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import AboutUs from './components/AboutUs';
@@ -17,7 +17,7 @@ const App = () => {
     const content = translations[lang];
 
     const heroRef = useRef<HTMLElement | null>(null);
-    const whyAIRef = useRef<HTMLElement | null>(null);
+    const aiFirstRef = useRef<HTMLElement | null>(null);
     const servicesRef = useRef<HTMLElement | null>(null);
     const portfolioRef = useRef<HTMLElement | null>(null);
     const aboutUsRef = useRef<HTMLElement | null>(null);
@@ -45,12 +45,12 @@ const App = () => {
             });
         }, { threshold: 0.1 });
 
-        [whyAIRef, servicesRef, portfolioRef, aboutUsRef, contactRef].forEach(ref => {
+        [aiFirstRef, servicesRef, portfolioRef, aboutUsRef, contactRef].forEach(ref => {
             if (ref.current) observer.observe(ref.current);
         });
 
         return () => {
-            [whyAIRef, servicesRef, portfolioRef, aboutUsRef, contactRef].forEach(ref => {
+            [aiFirstRef, servicesRef, portfolioRef, aboutUsRef, contactRef].forEach(ref => {
                 if (ref.current) observer.unobserve(ref.current);
             });
         };
@@ -60,7 +60,7 @@ const App = () => {
     useEffect(() => {
         const sectionRefs = [
             { ref: heroRef, name: 'home' },
-            { ref: whyAIRef, name: 'whyAI' },
+            { ref: aiFirstRef, name: 'aiFirst' },
             { ref: servicesRef, name: 'services' },
             { ref: portfolioRef, name: 'portfolio' },
             { ref: aboutUsRef, name: 'aboutUs' },
@@ -136,14 +136,14 @@ const App = () => {
                 isMenuOpen={isMenuOpen}
                 setIsMenuOpen={setIsMenuOpen}
                 scrollToRef={scrollToRef}
-                refs={{ whyAIRef, servicesRef, portfolioRef, aboutUsRef, contactRef }}
+                refs={{ aiFirstRef, servicesRef, portfolioRef, aboutUsRef, contactRef }}
             />
 
             <main>
                 <Hero ref={heroRef} content={content.hero} scrollToContact={scrollToContact} />
-                <WhyAI ref={whyAIRef} content={content.whyAI} />
+                <AIFirst ref={aiFirstRef} content={content.aiFirst} />
                 <Services ref={servicesRef} content={content.services} />
-                <Portfolio 
+                <Portfolio  
                     ref={portfolioRef} 
                     content={content.portfolio} 
                     contactButtonText={content.contact.form.send_button}
@@ -156,7 +156,7 @@ const App = () => {
             <Footer 
                 content={content} 
                 scrollToRef={scrollToRef} 
-                refs={{ whyAIRef, servicesRef, portfolioRef, aboutUsRef, contactRef }} 
+                refs={{ aiFirstRef, servicesRef, portfolioRef, aboutUsRef, contactRef }} 
             />
         </div>
     );
