@@ -69,7 +69,7 @@ const App = () => {
 
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting && entry.intersectionRatio > 0.4) {
+                if (entry.isIntersecting) {
                     const sectionName = sectionRefs.find(s => s.ref.current === entry.target)?.name;
                     if (sectionName) {
                         setActiveSection(sectionName);
@@ -77,8 +77,8 @@ const App = () => {
                 }
             });
         }, {
-            rootMargin: '-80px 0px -40% 0px',
-            threshold: 0.4
+            rootMargin: '-45% 0px -45% 0px',
+            threshold: 0
         });
 
         sectionRefs.forEach(section => {
