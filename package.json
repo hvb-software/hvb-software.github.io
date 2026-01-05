@@ -1,9 +1,10 @@
 {
-  "name": "hvb.software",
+  "name": "HVB.software",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://hvb-software.github.io/",
+  "base": "/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
