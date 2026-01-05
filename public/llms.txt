@@ -1,0 +1,31 @@
+# HVB.software
+
+## About HVB.software
+HVB.software specializes in AI-first software development. We design innovative applications and automate business processes using no-code tools like n8n.
+
+## Services
+- **AI-First Software Development**: Custom AI solutions, agentic systems, and intelligent applications.
+- **Development & AI Integration**: Upgrading existing systems with AI capabilities (LLMs, etc.).
+- **Process Automation (No-Code)**: Streamlining business operations using n8n and other automation tools.
+- **AI Training & Workshops**: Educating teams on AI adoption and implementation.
+
+## Technologies
+- **Backend**: Java, Kotlin, Spring Boot, Python
+- **Frontend**: React, React Native, Flutter, TypeScript
+- **AI/Data**: Agent Development Kit, LangChain, ElasticSearch
+- **Cloud/Infra**: Google Cloud Platform (GCP), MongoDB, PostgreSQL
+- **Automation**: n8n
+
+## Founders
+- **Jakub Prądzyński**: Engineering Manager & Senior Software Engineer (Java/Kotlin, Spring, Big Data, AI).
+- **Piotr Prądzyński**: Senior Software Engineer (Java/Kotlin, Spring Boot, Elasticsearch, AI Voice Solutions).
+
+## Key Projects
+- **JiroAI.pl**: Intelligent AI assistant for Polish businesses.
+- **HomeDecoratorAI.com**: AI platform for interior design.
+- **ProgramistaNaSwoim.pl**: Resources for self-employed programmers.
+- **PrzeglądAI.news**: AI industry newsletter.
+
+## Contact
+- **Email**: hi@hvb.software
+- **Website**: https://hvb.software
