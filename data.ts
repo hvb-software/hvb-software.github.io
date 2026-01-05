@@ -44,6 +44,10 @@ export const translations = {
                 title: "O nas - poznaj zespół HVB.software",
                 description: "Poznaj założycieli HVB.software, Jakuba i Piotra Prądzyńskich. Dowiedz się więcej o naszym doświadczeniu w technologiach AI, Java, Kotlin, Spring i nie tylko."
             },
+            faq: {
+                title: "FAQ - Najczęściej zadawane pytania | HVB.software",
+                description: "Znajdź odpowiedzi na najczęściej zadawane pytania dotyczące współpracy, technologii, kosztów i procesu wdrażania rozwiązań AI w Twojej firmie."
+            },
             contact: {
                 title: "Skontaktuj się z nami | HVB.software",
                 description: "Masz pomysł na projekt AI? Skontaktuj się z nami, aby omówić szczegóły. Wypełnij formularz kontaktowy, a nasz zespół odezwie się do Ciebie."
@@ -54,6 +58,7 @@ export const translations = {
             services: "Usługi",
             portfolio: "Portfolio",
             aboutUs: "O nas",
+            faq: "FAQ",
             contact: "Kontakt",
         },
         hero: {
@@ -136,8 +141,52 @@ export const translations = {
                 }
             ]
         },
+        faq: {
+            title: "Najczęściej zadawane pytania",
+            items: [
+                {
+                    question: "Czym jest podejście AI-first?",
+                    answer: "AI-first to strategia tworzenia oprogramowania, w której sztuczna inteligencja jest kluczowym elementem systemu już od fazy projektowania, a nie tylko dodatkiem. Pozwala to na budowanie inteligentniejszych, bardziej efektywnych i innowacyjnych rozwiązań."
+                },
+                {
+                    question: "Jakie korzyści daje automatyzacja procesów z n8n?",
+                    answer: "Automatyzacja z n8n (narzędzie no-code) pozwala na szybkie łączenie różnych aplikacji i usług, eliminując powtarzalne zadania manualne. Oszczędza to czas, redukuje błędy i pozwala zespołowi skupić się na bardziej kreatywnej pracy."
+                },
+                {
+                    question: "Czy tworzycie oprogramowanie od zera?",
+                    answer: "Tak, specjalizujemy się w tworzeniu oprogramowania od podstaw (greenfield). Projektujemy i wdrażamy kompletne systemy, od backendu i baz danych, po aplikacje webowe i mobilne."
+                },
+                {
+                    question: "Jakie technologie wykorzystujecie?",
+                    answer: "Korzystamy z nowoczesnego i sprawdzonego stacku: Java/Kotlin, Spring Boot, Python dla backendu i AI, React i Flutter dla frontendu, oraz chmury GCP. W automatyzacji używamy n8n i rozwiązań Agentic AI."
+                },
+                {
+                    question: "Czy integrujecie AI z istniejącymi systemami?",
+                    answer: "Tak, pomagamy firmom modernizować ich obecne systemy poprzez integrację z modelami językowymi (LLM) i innymi narzędziami AI, dodając nowe funkcjonalności bez konieczności wymiany całego oprogramowania."
+                },
+                {
+                    question: "Ile kosztuje wdrożenie rozwiązania AI?",
+                    answer: "Koszt zależy od skali i skomplikowania projektu. Oferujemy elastyczne modele współpracy. Skontaktuj się z nami na bezpłatną konsultację, abyśmy mogli oszacować Twój projekt."
+                },
+                {
+                    question: "Jak wygląda proces współpracy?",
+                    answer: "Zaczynamy od analizy potrzeb i konsultacji. Następnie przygotowujemy plan działania i prototyp. Po akceptacji przechodzimy do developmentu, regularnie dostarczając efekty pracy, aż do wdrożenia i utrzymania."
+                },
+                {
+                    question: "Czy oferujecie wsparcie po wdrożeniu?",
+                    answer: "Tak, zapewniamy wsparcie techniczne i utrzymanie stworzonych przez nas rozwiązań, a także możliwość ich dalszego rozwoju w miarę rosnących potrzeb Twojego biznesu."
+                },
+                {
+                    question: "Czy prowadzicie szkolenia dla firm?",
+                    answer: "Tak, oferujemy szkolenia i warsztaty z zakresu wykorzystania AI i automatyzacji w biznesie, dostosowane do poziomu wiedzy i specyfiki branży klienta."
+                },
+                {
+                    question: "Dla jakich branż pracujecie?",
+                    answer: "Nie ograniczamy się do jednej branży. Nasze doświadczenie obejmuje e-commerce, finanse, usługi profesjonalne i startupy. Technologie AI mają zastosowanie niemal w każdym sektorze."
+                }
+            ]
+        },
         contact: {
-            title: "Porozmawiajmy o Twoich potrzebach",
             subtitle: "Masz pomysł na innowacyjną aplikację AI lub chcesz usprawnić procesy w swojej firmie? Wypełnij formularz, aby umówić się na bezpłatną konsultację.",
             form: {
                 send_button: "Skontaktuj się z nami",
@@ -171,6 +220,10 @@ export const translations = {
                 title: "About us - Meet the HVB.software team",
                 description: "Meet the founders of HVB.software, Jakub and Piotr Prądzyński. Learn more about our experience in AI, Java, Kotlin, Spring, and more."
             },
+            faq: {
+                title: "FAQ - Frequently Asked Questions | HVB.software",
+                description: "Find answers to frequently asked questions about cooperation, technology, costs, and the process of implementing AI solutions in your company."
+            },
             contact: {
                 title: "Contact us | HVB.software",
                 description: "Have an idea for an AI project? Contact us to discuss the details. Fill out the contact form, and our team will get in touch with you."
@@ -181,6 +234,7 @@ export const translations = {
             services: "Services",
             portfolio: "Portfolio",
             aboutUs: "About us",
+            faq: "FAQ",
             contact: "Contact",
         },
         hero: {
@@ -263,8 +317,52 @@ export const translations = {
                 }
             ]
         },
+        faq: {
+            title: "Frequently Asked Questions",
+            items: [
+                {
+                    question: "What is the AI-first approach?",
+                    answer: "AI-first is a software development strategy where artificial intelligence is a key element of the system from the design phase, not just an add-on. This allows for building smarter, more efficient, and innovative solutions."
+                },
+                {
+                    question: "What are the benefits of process automation with n8n?",
+                    answer: "Automation with n8n (a no-code tool) allows for quickly connecting various apps and services, eliminating repetitive manual tasks. This saves time, reduces errors, and allows the team to focus on more creative work."
+                },
+                {
+                    question: "Do you create software from scratch?",
+                    answer: "Yes, we specialize in creating software from scratch (greenfield). We design and implement complete systems, from backend and databases to web and mobile applications."
+                },
+                {
+                    question: "What technologies do you use?",
+                    answer: "We use a modern and proven stack: Java/Kotlin, Spring Boot, Python for backend and AI, React and Flutter for frontend, and GCP cloud. For automation, we use n8n and Agentic AI solutions."
+                },
+                {
+                    question: "Do you integrate AI with existing systems?",
+                    answer: "Yes, we help companies modernize their current systems by integrating them with Large Language Models (LLM) and other AI tools, adding new functionalities without the need to replace the entire software."
+                },
+                {
+                    question: "How much does it cost to implement an AI solution?",
+                    answer: "The cost depends on the scale and complexity of the project. We offer flexible cooperation models. Contact us for a free consultation so we can estimate your project."
+                },
+                {
+                    question: "What does the cooperation process look like?",
+                    answer: "We start with a needs analysis and consultation. Then we prepare an action plan and a prototype. After acceptance, we move to development, regularly delivering work results until deployment and maintenance."
+                },
+                {
+                    question: "Do you offer post-implementation support?",
+                    answer: "Yes, we provide technical support and maintenance for the solutions we create, as well as the possibility of their further development as your business needs grow."
+                },
+                {
+                    question: "Do you conduct training for companies?",
+                    answer: "Yes, we offer training and workshops on the use of AI and automation in business, tailored to the level of knowledge and specificity of the client's industry."
+                },
+                {
+                    question: "What industries do you work for?",
+                    answer: "We do not limit ourselves to one industry. Our experience includes e-commerce, finance, professional services, and startups. AI technologies are applicable in almost every sector."
+                }
+            ]
+        },
         contact: {
-            title: "Let's talk about your needs",
             subtitle: "Have an idea for an innovative AI application or want to improve your business processes? Fill out the form to schedule a free consultation.",
             form: {
                 send_button: "Contact Us",

@@ -6,6 +6,7 @@ import AIFirst from './components/AIFirst';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import AboutUs from './components/AboutUs';
+import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -21,6 +22,7 @@ const App = () => {
     const servicesRef = useRef<HTMLElement | null>(null);
     const portfolioRef = useRef<HTMLElement | null>(null);
     const aboutUsRef = useRef<HTMLElement | null>(null);
+    const faqRef = useRef<HTMLElement | null>(null);
     const contactRef = useRef<HTMLElement | null>(null);
 
     const scrollToRef = (ref: MutableRefObject<HTMLElement | null>) => {
@@ -45,12 +47,12 @@ const App = () => {
             });
         }, { threshold: 0.1 });
 
-        [aiFirstRef, servicesRef, portfolioRef, aboutUsRef, contactRef].forEach(ref => {
+        [aiFirstRef, servicesRef, portfolioRef, aboutUsRef, faqRef, contactRef].forEach(ref => {
             if (ref.current) observer.observe(ref.current);
         });
 
         return () => {
-            [aiFirstRef, servicesRef, portfolioRef, aboutUsRef, contactRef].forEach(ref => {
+            [aiFirstRef, servicesRef, portfolioRef, aboutUsRef, faqRef, contactRef].forEach(ref => {
                 if (ref.current) observer.unobserve(ref.current);
             });
         };
@@ -64,6 +66,7 @@ const App = () => {
             { ref: servicesRef, name: 'services' },
             { ref: portfolioRef, name: 'portfolio' },
             { ref: aboutUsRef, name: 'aboutUs' },
+            { ref: faqRef, name: 'faq' },
             { ref: contactRef, name: 'contact' },
         ];
 
@@ -136,7 +139,7 @@ const App = () => {
                 isMenuOpen={isMenuOpen}
                 setIsMenuOpen={setIsMenuOpen}
                 scrollToRef={scrollToRef}
-                refs={{ aiFirstRef, servicesRef, portfolioRef, aboutUsRef, contactRef }}
+                refs={{ aiFirstRef, servicesRef, portfolioRef, aboutUsRef, faqRef, contactRef }}
             />
 
             <main>
@@ -150,13 +153,14 @@ const App = () => {
                     scrollToContact={scrollToContact} 
                 />
                 <AboutUs ref={aboutUsRef} content={content.aboutUs} />
+                <FAQ ref={faqRef} content={content.faq} />
                 <Contact ref={contactRef} content={content.contact} />
             </main>
 
             <Footer 
                 content={content} 
                 scrollToRef={scrollToRef} 
-                refs={{ aiFirstRef, servicesRef, portfolioRef, aboutUsRef, contactRef }} 
+                refs={{ aiFirstRef, servicesRef, portfolioRef, aboutUsRef, faqRef, contactRef }} 
             />
         </div>
     );

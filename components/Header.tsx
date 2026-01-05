@@ -13,6 +13,7 @@ interface HeaderProps {
         servicesRef: MutableRefObject<HTMLElement | null>;
         portfolioRef: MutableRefObject<HTMLElement | null>;
         aboutUsRef: MutableRefObject<HTMLElement | null>;
+        faqRef: MutableRefObject<HTMLElement | null>;
         contactRef: MutableRefObject<HTMLElement | null>;
     };
 }
@@ -28,6 +29,7 @@ const Header: React.FC<HeaderProps> = ({ content, lang, setLang, isMenuOpen, set
                 <a onClick={() => scrollToRef(refs.servicesRef)}>{content.nav.services}</a>
                 <a onClick={() => scrollToRef(refs.portfolioRef)}>{content.nav.portfolio}</a>
                 <a onClick={() => scrollToRef(refs.aboutUsRef)}>{content.nav.aboutUs}</a>
+                <a onClick={() => scrollToRef(refs.faqRef)}>{content.nav.faq}</a>
                 <a onClick={() => scrollToRef(refs.contactRef)}>{content.nav.contact}</a>
             </nav>
             <div className="header-actions">
