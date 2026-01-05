@@ -74,11 +74,10 @@ export const translations = {
         services: {
             title: "Nasze usługi",
             items: [
-                { title: "Rozwój oprogramowania AI-first", text: "Projektujemy i tworzymy dedykowane aplikacje (w tym agentowe) od podstaw, wykorzystując najnowsze modele i technologie AI, aby idealnie odpowiadały Twoim celom biznesowym.", icon: "developer_mode" },
-                { title: "Integracje z systemami AI", text: "Modernizujemy Twoje obecne systemy, integrując je z zaawansowanymi rozwiązaniami AI, co zwiększa ich możliwości i wydajność.", icon: "integration_instructions" },
-                { title: "Szkolenia i warsztaty AI", text: "Wyposażamy Twój zespół w wiedzę i praktyczne umiejętności, pozwalające w pełni wykorzystać potencjał sztucznej inteligencji w codziennej pracy.", icon: "school" },
-                { title: "Automatyzacja procesów biznesowych", text: "Analizujemy, optymalizujemy i automatyzujemy przepływy pracy. Łączymy aplikacje i usługi za pomocą elastycznych narzędzi no-code, takich jak n8n, aby usprawnić działanie Twojej firmy.", icon: "hub" },
-                { title: "Rozwój w standardowych technologiach", text: "Projektujemy i tworzymy oprogramowanie wykorzystując technologie, w których mamy wieloletnie doświadczenie, takich jak Java/Kotlin, Spring, MongoDB, ElasticSearch, React, Flutter oraz GCP.", icon: "terminal" }
+                { title: "Tworzenie projektów od podstaw", text: "Przekuwamy Twoją wizję w działający produkt. Tworzymy od zera zaawansowane systemy: od agentów AI, przez aplikacje webowe i mobilne, aż po wydajne usługi backendowe. Stawiamy na nowoczesny i sprawdzony stack technologiczny: Java/Kotlin, Python, Spring, MongoDB, PostgreSQL, ElasticSearch, React (Native), Flutter, GCP, Agent Development Kit, LangChain.", icon: "developer_mode" },
+                { title: "Rozwój i integracje AI", text: "Masz już system, ale potrzebuje on odświeżenia lub nowych supermocy? Zajmujemy się rozwojem istniejącego oprogramowania i integrujemy je z rozwiązaniami sztucznej inteligencji, abyś mógł wyprzedzić konkurencję.", icon: "integration_instructions" },
+                { title: "Automatyzacja procesów (No-Code)", text: "Usprawniamy działanie Twojego biznesu dzięki automatyzacji procesów. Wykorzystujemy narzędzia no-code (np. n8n), co daje Ci przewagę – stworzone rozwiązania są łatwe w utrzymaniu i mogą być rozwijane nawet przez osoby nietechniczne w Twoim zespole.", icon: "hub" },
+                { title: "Szkolenia i warsztaty AI", text: "Zrozum i wykorzystaj potencjał AI w swojej firmie. Oferujemy praktyczne szkolenia i warsztaty, które projektujemy indywidualnie pod kątem Twojej branży i potrzeb Twojego zespołu.", icon: "school" }
             ],
         },
         portfolio: {
@@ -202,11 +201,10 @@ export const translations = {
         services: {
             title: "Our services",
             items: [
-                { title: "AI-first software development", text: "We design and build custom AI applications (including agentic systems) from the ground up, using the latest AI models and technologies to perfectly match your business goals.", icon: "developer_mode" },
-                { title: "AI system integrations", text: "We modernize your current systems by integrating them with advanced AI solutions, boosting their capabilities and performance.", icon: "integration_instructions" },
-                { title: "AI training & workshops", text: "We equip your team with the knowledge and practical skills to fully leverage the potential of artificial intelligence in their daily work.", icon: "school" },
-                { title: "Business process automation", text: "We analyze, optimize, and automate workflows. We connect applications and services using flexible no-code tools like n8n to streamline your business operations.", icon: "hub" },
-                { title: "Standard technology development", text: "We design and build software using technologies in which we have many years of experience, such as Java/Kotlin, Spring, MongoDB, ElasticSearch, React, Flutter, and GCP.", icon: "terminal" }
+                { title: "End-to-End Project Creation", text: "We turn your vision into a working product. We build advanced systems from scratch: from AI agents, through web and mobile apps, to high-performance backend services. We rely on a modern and proven tech stack: Java/Kotlin, Python, Spring, MongoDB, PostgreSQL, ElasticSearch, React (Native), Flutter, GCP, Agent Development Kit, LangChain.", icon: "developer_mode" },
+                { title: "Development & AI Integration", text: "Already have a system but it needs a refresh or new superpowers? We handle the development of existing software and integrate it with artificial intelligence solutions to help you stay ahead of the competition.", icon: "integration_instructions" },
+                { title: "Process Automation (No-Code)", text: "We streamline your business operations through process automation. We use no-code tools (e.g., n8n), giving you an advantage – the solutions we create are easy to maintain and can be further developed even by non-technical members of your team.", icon: "hub" },
+                { title: "AI Training & Workshops", text: "Understand and leverage the potential of AI in your company. We offer practical training and workshops, individually designed to meet the specific needs of your industry and team.", icon: "school" }
             ],
         },
         portfolio: {
